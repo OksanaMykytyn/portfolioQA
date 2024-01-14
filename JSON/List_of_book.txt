@@ -1,0 +1,38 @@
+{
+  "Book": [
+    {
+      "Name": "Weyward",
+      "Author": {
+        "Name": "Emilia",
+        "Surname": "Hart",
+        "Born": "Sydney, Australia"
+      },
+      "Votes": 62211
+    },
+    {
+      "Name": "Fourth Wing",
+      "Author": "Rebecca Yarros",
+      "Votes": 397565
+    },
+    {
+      "Name": "Hell Bent",
+      "Author": "Leigh Bardugo",
+      "Votes": 75800
+    },
+    {
+      "Name": "Holly",
+      "Author": "Stephen King",
+      "Votes": 77993
+    },
+    {
+      "Name": "Check & Mate",
+      "Author": {
+        "Name": "Ali",
+        "Surname": "Hazelwood",
+        "Born": "in Italy",
+        "DateOfBirth": "December 01"
+      },
+      "Votes": 68736
+    }
+  ]
+}
