@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Book>
+	<Name>Weyward</Name>
+	<Author>
+		<Name>Emilia</Name>
+		<Surname>Hart</Surname>
+		<Born>Sydney, Australia</Born>
+	</Author>
+	<Votes>62211</Votes>
+</Book>
+<Book>
+	<Name>Fourth Wing</Name>
+	<Author>Rebecca Yarros</Author>
+	<Votes>397565</Votes>
+</Book>
+<Book>
+	<Name>Hell Bent</Name>
+	<Author>Leigh Bardugo</Author>
+	<Votes>75800</Votes>
+</Book>
+<Book>
+	<Name>Holly</Name>
+	<Author>Stephen King</Author>
+	<Votes>77993</Votes>
+</Book>
+<Book>
+	<Name>Check & Mate</Name>
+	<Author>
+		<Name>Ali</Name>
+		<Surname>Hazelwood</Surname>
+		<Born>in Italy</Born>
+		<DateOfBirth>December 01</DateOfBirth>
+	</Author>
+	<Votes>68736</Votes>
+</Book>
