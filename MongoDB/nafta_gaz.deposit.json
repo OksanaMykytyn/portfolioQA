@@ -1,0 +1,147 @@
+[{
+  "_id": 1,
+  "name_deposit": "Каховське-Н",
+  "address_deposit": "5 км на ПнС від м. Херсон",
+  "year_of_commissioning": 2009,
+  "number_of_wells": 12
+},
+{
+  "_id": 2,
+  "name_deposit": "Хорольське-НГК",
+  "address_deposit": "9 км на ПдС від м. Кобеляки",
+  "year_of_commissioning": 2015,
+  "number_of_wells": 25
+},
+{
+  "_id": 3,
+  "name_deposit": "Могилівське-НГ",
+  "address_deposit": "3 км Новомосковськ",
+  "year_of_commissioning": 2021,
+  "number_of_wells": 43
+},
+{
+  "_id": 4,
+  "name_deposit": "Роздорівське-НГК",
+  "address_deposit": "21 км на ПнЗ від с. Іскра",
+  "year_of_commissioning": 2017,
+  "number_of_wells": 23
+},
+{
+  "_id": 5,
+  "name_deposit": "Левадівське-НГК",
+  "address_deposit": "100 км на ПнС від м. Ромни",
+  "year_of_commissioning": 2013,
+  "number_of_wells": 35
+},
+{
+  "_id": 6,
+  "name_deposit": "Корецьке-НГК",
+  "address_deposit": "50 км на ПнЗ від м. Ромни",
+  "year_of_commissioning": 2008,
+  "number_of_wells": 64
+},
+{
+  "_id": 7,
+  "name_deposit": "Одеське-Н",
+  "address_deposit": "130 км від м. Одеса",
+  "year_of_commissioning": 2015,
+  "number_of_wells": 17
+},
+{
+  "_id": 8,
+  "name_deposit": "Приазовське-Г",
+  "address_deposit": "25 км від м. Мелітополь",
+  "year_of_commissioning": 2016,
+  "number_of_wells": 95
+},
+{
+  "_id": 9,
+  "name_deposit": "Коломийське-Н",
+  "address_deposit": "60 км на П від м. Івано-Франківськ",
+  "year_of_commissioning": 2021,
+  "number_of_wells": 34
+},
+{
+  "_id": 10,
+  "name_deposit": "Калуське-НГК",
+  "address_deposit": "30 км на З від м. Івано-Франківськ",
+  "year_of_commissioning": 2021,
+  "number_of_wells": 37
+},
+{
+  "_id": 11,
+  "name_deposit": "Ходорівське-НГК",
+  "address_deposit": "10 км на ПдЗ від м. Львів",
+  "year_of_commissioning": 2018,
+  "number_of_wells": 45
+},
+{
+  "_id": 12,
+  "name_deposit": "Глинянське-Н",
+  "address_deposit": "20 км на ПдЗ від м. Бібрка",
+  "year_of_commissioning": 2010,
+  "number_of_wells": 22
+},
+{
+  "_id": 13,
+  "name_deposit": "Стрийське-Н",
+  "address_deposit": "15 км на ПдЗ від м. Стрий",
+  "year_of_commissioning": 2015,
+  "number_of_wells": 18
+},
+{
+  "_id": 14,
+  "name_deposit": "Тлумацьке-Н",
+  "address_deposit": "7 км на ПдС від м. Івано-Франківськ",
+  "year_of_commissioning": 2019,
+  "number_of_wells": 35
+},
+{
+  "_id": 15,
+  "name_deposit": "Новоселицьке-НГК",
+  "address_deposit": "10 км на ПдЗ від м. Івано-Франківськ",
+  "year_of_commissioning": 2016,
+  "number_of_wells": 25
+},
+{
+  "_id": 16,
+  "name_deposit": "Шполянське-НГК",
+  "address_deposit": "15 км на Сх від м. Черкаси",
+  "year_of_commissioning": 2020,
+  "number_of_wells": 31
+},
+{
+  "_id": 17,
+  "name_deposit": "Рокитнівське-НГК",
+  "address_deposit": "30 км на ПдЗ від м. Київ",
+  "year_of_commissioning": 2016,
+  "number_of_wells": 29
+},
+{
+  "_id": 18,
+  "name_deposit": "Новоград-Волинське-НГК",
+  "address_deposit": "15 км на Зх від м. Житомир",
+  "year_of_commissioning": 2020,
+  "number_of_wells": 17
+},
+{
+  "_id": 19,
+  "name_deposit": "Очаківське-НГК",
+  "address_deposit": "30 км на ПнЗ від м. Очаків",
+  "year_of_commissioning": 2021,
+  "number_of_wells": 27
+},
+{
+  "_id": 20,
+  "name_deposit": "Білозерське-НГК",
+  "address_deposit": "5 км на ПдС від м. Херсон",
+  "year_of_commissioning": 2018,
+  "number_of_wells": 19
+},
+{
+  "_id": 21,
+  "name_deposit": "Тисменицьке-НГК",
+  "address_deposit": "20 км на ПдЗ від м. Львів",
+  "year_of_commissioning": 2016,
+  "number_of_wells": 28
+}]
