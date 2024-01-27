@@ -1,0 +1,432 @@
+[{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c149c"
+  },
+  "id_region": 1,
+  "id_state": 1,
+  "id_deposit": 1,
+  "date_of_data_submission": {
+    "$date": "2023-09-12T00:00:00.000Z"
+  },
+  "production_per_day": 6120
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c149d"
+  },
+  "id_region": 1,
+  "id_state": 1,
+  "id_deposit": 1,
+  "date_of_data_submission": {
+    "$date": "2009-05-04T00:00:00.000Z"
+  },
+  "production_per_day": 970
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c149e"
+  },
+  "id_region": 1,
+  "id_state": 2,
+  "id_deposit": 2,
+  "date_of_data_submission": {
+    "$date": "2015-08-03T00:00:00.000Z"
+  },
+  "production_per_day": 58766
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c149f"
+  },
+  "id_region": 1,
+  "id_state": 3,
+  "id_deposit": 3,
+  "date_of_data_submission": {
+    "$date": "2021-09-17T00:00:00.000Z"
+  },
+  "production_per_day": 4590
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a0"
+  },
+  "id_region": 1,
+  "id_state": 2,
+  "id_deposit": 2,
+  "date_of_data_submission": {
+    "$date": "2015-10-16T00:00:00.000Z"
+  },
+  "production_per_day": 2250
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a1"
+  },
+  "id_region": 1,
+  "id_state": 3,
+  "id_deposit": 4,
+  "date_of_data_submission": {
+    "$date": "2017-12-07T00:00:00.000Z"
+  },
+  "production_per_day": 3050
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a2"
+  },
+  "id_region": 1,
+  "id_state": 4,
+  "id_deposit": 5,
+  "date_of_data_submission": {
+    "$date": "2014-03-07T00:00:00.000Z"
+  },
+  "production_per_day": 6787
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a3"
+  },
+  "id_region": 1,
+  "id_state": 4,
+  "id_deposit": 6,
+  "date_of_data_submission": {
+    "$date": "2009-05-28T00:00:00.000Z"
+  },
+  "production_per_day": 31575
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a4"
+  },
+  "id_region": 2,
+  "id_state": 5,
+  "id_deposit": 7,
+  "date_of_data_submission": {
+    "$date": "2021-06-30T00:00:00.000Z"
+  },
+  "production_per_day": 8500
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a5"
+  },
+  "id_region": 2,
+  "id_state": 6,
+  "id_deposit": 8,
+  "date_of_data_submission": {
+    "$date": "2017-01-20T00:00:00.000Z"
+  },
+  "production_per_day": 1300
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a6"
+  },
+  "id_region": 3,
+  "id_state": 7,
+  "id_deposit": 9,
+  "date_of_data_submission": {
+    "$date": "2021-08-11T00:00:00.000Z"
+  },
+  "production_per_day": 28459
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a7"
+  },
+  "id_region": 3,
+  "id_state": 7,
+  "id_deposit": 10,
+  "date_of_data_submission": {
+    "$date": "2023-12-23T00:00:00.000Z"
+  },
+  "production_per_day": 7108
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a8"
+  },
+  "id_region": 3,
+  "id_state": 8,
+  "id_deposit": 11,
+  "date_of_data_submission": {
+    "$date": "2018-01-29T00:00:00.000Z"
+  },
+  "production_per_day": 59025
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14a9"
+  },
+  "id_region": 3,
+  "id_state": 8,
+  "id_deposit": 12,
+  "date_of_data_submission": {
+    "$date": "2010-02-28T00:00:00.000Z"
+  },
+  "production_per_day": 1934
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14aa"
+  },
+  "id_region": 3,
+  "id_state": 8,
+  "id_deposit": 13,
+  "date_of_data_submission": {
+    "$date": "2015-09-22T00:00:00.000Z"
+  },
+  "production_per_day": 4527
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14ab"
+  },
+  "id_region": 3,
+  "id_state": 7,
+  "id_deposit": 14,
+  "date_of_data_submission": {
+    "$date": "2019-09-17T00:00:00.000Z"
+  },
+  "production_per_day": 9164
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14ac"
+  },
+  "id_region": 3,
+  "id_state": 7,
+  "id_deposit": 14,
+  "date_of_data_submission": {
+    "$date": "2019-07-19T00:00:00.000Z"
+  },
+  "production_per_day": 1784
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14ad"
+  },
+  "id_region": 3,
+  "id_state": 7,
+  "id_deposit": 15,
+  "date_of_data_submission": {
+    "$date": "2016-12-22T00:00:00.000Z"
+  },
+  "production_per_day": 2539
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14ae"
+  },
+  "id_region": 4,
+  "id_state": 9,
+  "id_deposit": 16,
+  "date_of_data_submission": {
+    "$date": "2020-03-04T00:00:00.000Z"
+  },
+  "production_per_day": 4210
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14af"
+  },
+  "id_region": 4,
+  "id_state": 9,
+  "id_deposit": 16,
+  "date_of_data_submission": {
+    "$date": "2020-01-17T00:00:00.000Z"
+  },
+  "production_per_day": 1280
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b0"
+  },
+  "id_region": 4,
+  "id_state": 10,
+  "id_deposit": 17,
+  "date_of_data_submission": {
+    "$date": "2016-12-09T00:00:00.000Z"
+  },
+  "production_per_day": 11525
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b1"
+  },
+  "id_region": 4,
+  "id_state": 10,
+  "id_deposit": 17,
+  "date_of_data_submission": {
+    "$date": "2016-02-02T00:00:00.000Z"
+  },
+  "production_per_day": 7902
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b2"
+  },
+  "id_region": 4,
+  "id_state": 11,
+  "id_deposit": 18,
+  "date_of_data_submission": {
+    "$date": "2020-07-14T00:00:00.000Z"
+  },
+  "production_per_day": 2360
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b3"
+  },
+  "id_region": 4,
+  "id_state": 11,
+  "id_deposit": 18,
+  "date_of_data_submission": {
+    "$date": "2020-06-27T00:00:00.000Z"
+  },
+  "production_per_day": 1267
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b4"
+  },
+  "id_region": 5,
+  "id_state": 12,
+  "id_deposit": 19,
+  "date_of_data_submission": {
+    "$date": "2021-05-01T00:00:00.000Z"
+  },
+  "production_per_day": 4870
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b5"
+  },
+  "id_region": 5,
+  "id_state": 12,
+  "id_deposit": 19,
+  "date_of_data_submission": {
+    "$date": "2021-02-12T00:00:00.000Z"
+  },
+  "production_per_day": 7900
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b6"
+  },
+  "id_region": 5,
+  "id_state": 1,
+  "id_deposit": 20,
+  "date_of_data_submission": {
+    "$date": "2018-06-11T00:00:00.000Z"
+  },
+  "production_per_day": 9500
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b7"
+  },
+  "id_region": 5,
+  "id_state": 1,
+  "id_deposit": 20,
+  "date_of_data_submission": {
+    "$date": "2018-02-14T00:00:00.000Z"
+  },
+  "production_per_day": 4110
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b8"
+  },
+  "id_region": 3,
+  "id_state": 8,
+  "id_deposit": 21,
+  "date_of_data_submission": {
+    "$date": "2016-07-09T00:00:00.000Z"
+  },
+  "production_per_day": 7250
+},
+{
+  "_id": {
+    "$oid": "658768a4cfa958131b3c14b9"
+  },
+  "id_region": 3,
+  "id_state": 8,
+  "id_deposit": 21,
+  "date_of_data_submission": {
+    "$date": "2016-12-17T00:00:00.000Z"
+  },
+  "production_per_day": 3150
+},
+{
+  "_id": {
+    "$oid": "6588d06664de9f23b8c82627"
+  },
+  "id_region": 1,
+  "id_state": 4,
+  "id_deposit": 5,
+  "date_of_data_submission": {
+    "$date": "2023-12-07T00:00:00.000Z"
+  },
+  "production_per_day": 9375
+},
+{
+  "_id": {
+    "$oid": "6588d06664de9f23b8c82628"
+  },
+  "id_region": 2,
+  "id_state": 6,
+  "id_deposit": 8,
+  "date_of_data_submission": {
+    "$date": "2023-12-20T00:00:00.000Z"
+  },
+  "production_per_day": 2849
+},
+{
+  "_id": {
+    "$oid": "6588d06664de9f23b8c82629"
+  },
+  "id_region": 3,
+  "id_state": 7,
+  "id_deposit": 9,
+  "date_of_data_submission": {
+    "$date": "2023-12-11T00:00:00.000Z"
+  },
+  "production_per_day": 20038
+},
+{
+  "_id": {
+    "$oid": "6588d06664de9f23b8c8262a"
+  },
+  "id_region": 3,
+  "id_state": 7,
+  "id_deposit": 14,
+  "date_of_data_submission": {
+    "$date": "2023-12-19T00:00:00.000Z"
+  },
+  "production_per_day": 2748
+},
+{
+  "_id": {
+    "$oid": "6588d06664de9f23b8c8262b"
+  },
+  "id_region": 3,
+  "id_state": 7,
+  "id_deposit": 15,
+  "date_of_data_submission": {
+    "$date": "2023-12-22T00:00:00.000Z"
+  },
+  "production_per_day": 3452
+},
+{
+  "_id": {
+    "$oid": "6588d06664de9f23b8c8262c"
+  },
+  "id_region": 4,
+  "id_state": 9,
+  "id_deposit": 16,
+  "date_of_data_submission": {
+    "$date": "2023-03-04T00:00:00.000Z"
+  },
+  "production_per_day": 5634
+}]
