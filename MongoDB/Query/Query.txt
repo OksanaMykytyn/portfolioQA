@@ -1,0 +1,75 @@
+-- запит 1
+db.deposit.distinct("name_deposit");
+
+-- запит 2
+db.production.aggregate([{ $lookup: 
+{from: "state",
+localField: "id_state",
+foreignField: "_id",
+as: "state"}},
+{ $unwind: "$state"},
+ { $lookup: {
+  from: "region",
+  localField: "id_region",
+  foreignField: "_id",
+  as: "region"} },
+{ $unwind: "$region"},
+{ $group: {  _id: {
+region: "$region.name_region",
+state: "$state.name_state",},
+q1: {$sum: {$cond: [
+{ $gte:[{$month: "$date_of_data_submission" }, 1] },
+{$cond:[{$lte:[{$month:"$date_of_data_submission"},3]},
+"$production_per_day", 0 ] },  0  ] } },
+q2: {
+$sum: { $cond: [
+{ $gte: [{ $month: "$date_of_data_submission" }, 4] },
+{ $cond: [
+{ $lte: [{ $month: "$date_of_data_submission" }, 6] },
+"$production_per_day", 0 ] }, 0 ] } },
+q3: {
+$sum: {$cond: [
+{ $gte: [{ $month: "$date_of_data_submission" }, 7] },
+{ $cond: [
+{ $lte: [{ $month: "$date_of_data_submission" }, 9] },
+"$production_per_day", 0 ] }, 0 ] } },
+q4: {
+$sum: { $cond: [
+{ $gte: [{ $month: "$date_of_data_submission" }, 10] },
+{ $cond: [
+{ $lte: [{ $month: "$date_of_data_submission" }, 12] },
+"$production_per_day", 0 ] }, 0 ] } },
+total: { $sum: "$production_per_day" }}},
+{ $project: { _id: 0,
+"Регіон та область": {
+$concat: [ "$_id.region", " регіон - ", "$_id.state" ] },
+"1 квартал": "$q1",
+"2 квартал": "$q2",
+"3 квартал": "$q3",
+"4 квартал": "$q4",
+"Загально": "$total"}},
+{ $sort: { "Регіон та область": 1 }}]);
+
+-- запит 3
+db.deposit.aggregate([{
+$lookup: {
+from: "production",
+localField: "_id",
+foreignField: "id_deposit",
+as: "production"}},
+{$match: {"production.id_region": 1} },
+{$group: {_id: {
+name_deposit: "$name_deposit",
+year_of_commissioning: "$year_of_commissioning"},
+exploitation: {
+$first: {$switch: {branches: [{
+case: { $lt: ["$year_of_commissioning", 2010] },
+then: "До 2010 року"},
+{case: {$and: [
+{ $gte: ["$year_of_commissioning", 2010] },
+{ $lte: ["$year_of_commissioning", 2020] } ] },
+then: "2010-2020 рр."} ],
+default: "Від 2020 року до поточної дати" } } } } },
+{$project: { _id: 0,
+"Родовище східного регіону": "$_id.name_deposit",
+"Експлуатація": "$exploitation" } }])
