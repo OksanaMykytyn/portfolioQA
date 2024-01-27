@@ -1,0 +1,12 @@
+INSERT INTO state (id_state, name_state) VALUES (1, 'Херсонська');
+INSERT INTO state (id_state, name_state) VALUES (2, 'Полтавська');
+INSERT INTO state (id_state, name_state) VALUES (3, 'Дніпропетровська');
+INSERT INTO state (id_state, name_state) VALUES (4, 'Сумська');
+INSERT INTO state (id_state, name_state) VALUES (5, 'Одеська');
+INSERT INTO state (id_state, name_state) VALUES (6, 'Запорізька');
+INSERT INTO state (id_state, name_state) VALUES (7, 'Івано-Франківська');
+INSERT INTO state (id_state, name_state) VALUES (8, 'Львівська');
+INSERT INTO state (id_state, name_state) VALUES (9, 'Черкаська');
+INSERT INTO state (id_state, name_state) VALUES (10, 'Київська');
+INSERT INTO state (id_state, name_state) VALUES (11, 'Житомирська');
+INSERT INTO state (id_state, name_state) VALUES (12, 'Миколаївська');
