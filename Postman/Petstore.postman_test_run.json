@@ -1,0 +1,262 @@
+{
+	"id": "ddae2411-6a24-49aa-96e6-37002ed420a5",
+	"name": "Petstore",
+	"timestamp": "2024-01-28T20:03:12.774Z",
+	"collection_id": "32551855-055fbe10-63ae-45f9-85c9-2900371a2d49",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-28T20:03:10.447Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "10888555-de19-43fe-9a0f-7f1b2a605bfc",
+			"name": "Create Cat",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 366,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				366
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f5bc48df-1428-4061-b52f-cf4b7af5aa39",
+			"name": "Get pet",
+			"url": "https://petstore.swagger.io/v2/pet/12345678",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				122
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c6311665-fad0-497c-a25a-ff7127a3c502",
+			"name": "Update a field \"status\"",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 237,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify status pet is sold": true
+			},
+			"testPassFailCounts": {
+				"Verify status pet is sold": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				237
+			],
+			"allTests": [
+				{
+					"Verify status pet is sold": true
+				}
+			]
+		},
+		{
+			"id": "028f549d-3696-4a9b-a29a-6de104bab76a",
+			"name": "Get pet after update",
+			"url": "https://petstore.swagger.io/v2/pet/12345678",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify status code is 200": true,
+				"Verify name pet is Rose": true
+			},
+			"testPassFailCounts": {
+				"Verify status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify name pet is Rose": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				123
+			],
+			"allTests": [
+				{
+					"Verify status code is 200": true,
+					"Verify name pet is Rose": true
+				}
+			]
+		},
+		{
+			"id": "3bd246d5-a27c-4900-af9d-f8d3faac39ce",
+			"name": "Find pets by status",
+			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=sold",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Search my pet in list": true
+			},
+			"testPassFailCounts": {
+				"Search my pet in list": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				123
+			],
+			"allTests": [
+				{
+					"Search my pet in list": true
+				}
+			]
+		},
+		{
+			"id": "cffffccc-5d03-48d8-98de-63b4f94685cc",
+			"name": "Update some field",
+			"url": "https://petstore.swagger.io/v2/pet/12345678?petId=12345678&name=Cloud&status=pending",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				123
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "05301240-1419-4399-95f4-80d7d23a80eb",
+			"name": "Get pet after update",
+			"url": "https://petstore.swagger.io/v2/pet/12345678",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				122
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2063f365-f787-4966-a3ea-6b6dc90ccd9d",
+			"name": "Delete pet",
+			"url": "https://petstore.swagger.io/v2/pet/12345678?api_key=test_api&petId=12345678",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				123
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1066ad7a-4180-414c-9704-6feb205f068c",
+			"name": "Get pet after delete",
+			"url": "https://petstore.swagger.io/v2/pet/12345678",
+			"time": 123,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successfully delete pet": true
+			},
+			"testPassFailCounts": {
+				"Successfully delete pet": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				123
+			],
+			"allTests": [
+				{
+					"Successfully delete pet": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1462,
+	"collection": {
+		"requests": [
+			{
+				"id": "10888555-de19-43fe-9a0f-7f1b2a605bfc",
+				"method": "POST"
+			},
+			{
+				"id": "f5bc48df-1428-4061-b52f-cf4b7af5aa39",
+				"method": "GET"
+			},
+			{
+				"id": "c6311665-fad0-497c-a25a-ff7127a3c502",
+				"method": "PUT"
+			},
+			{
+				"id": "028f549d-3696-4a9b-a29a-6de104bab76a",
+				"method": "GET"
+			},
+			{
+				"id": "3bd246d5-a27c-4900-af9d-f8d3faac39ce",
+				"method": "GET"
+			},
+			{
+				"id": "cffffccc-5d03-48d8-98de-63b4f94685cc",
+				"method": "POST"
+			},
+			{
+				"id": "05301240-1419-4399-95f4-80d7d23a80eb",
+				"method": "GET"
+			},
+			{
+				"id": "2063f365-f787-4966-a3ea-6b6dc90ccd9d",
+				"method": "DELETE"
+			},
+			{
+				"id": "1066ad7a-4180-414c-9704-6feb205f068c",
+				"method": "GET"
+			}
+		]
+	}
+}
